@@ -8,9 +8,9 @@ const middlewares = jsonServer.defaults()
 server.use(cors({
     origin: [
       'http://localhost:4200',
-      'https://aaaavue-git-main-hallzyxs-projects.vercel.app',
+      'https://dogimax.netlify.app',
     ],
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization']
   }))
 
