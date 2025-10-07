@@ -7,7 +7,7 @@ const middlewares = jsonServer.defaults()
 
 server.use(cors({
     origin: [
-      'http://localhost:5173',
+      'http://localhost:4200',
       'https://aaaavue-git-main-hallzyxs-projects.vercel.app',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
